@@ -11,7 +11,7 @@
 ## 📸 Showcase
 
 <p align="center">
-<img src="./src/img/demo.png" width="600"><br>
+<img src="./src/demo.gif" width="600"><br>
 <strong><a href="https://vantanto.github.io" target=_blank>visit website</a></strong>
 </p>
 
