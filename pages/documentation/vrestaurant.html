@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1.0, shrink-to-fit=no">
+    <link href="../../src/img/favicon.png" rel="icon" />
+    <title>vrestaurant | Documentation</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha512-oc9+XSs1H243/FRN9Rw62Fn8EtxjEYWHXRvjS43YtueEewbS6ObfXcJNyohjHqVKFPoXXUxwc+q1K7Dee6vv9g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" integrity="sha512-9BwLAVqqt6oFdXohPLuNHxhx36BVj5uGSGmizkmGkgl3uMSgNalKc/smum+GJU/TTP0jy0+ruwC3xNAk3F759A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" integrity="sha512-+EoPw+Fiwh6eSeRK7zwIKG2MA8i3rV/DGa3tdttQGgWyatG/SkncT53KHQaS5Jh9MNOT3dmFL0FjTY08And/Cw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/styles/github.min.css" integrity="sha512-7QTQ5Qsc/IL1k8UU2bkNFjpKTfwnvGuPYE6fzm6yeneWTEGiA3zspgjcTsSgln9m0cn3MgyE7EnDNkF1bB/uCw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" type="text/css" href="../../src/css/stylesheet.css" />
+</head>
+
+<body data-spy="scroll" data-target=".idocs-navigation" data-offset="125">
+
+    <div id="main-wrapper">
+
+        <header id="header" class="sticky-top">
+            <!-- Navbar -->
+            <nav class="primary-menu navbar navbar-expand-lg navbar-dropdown-dark">
+                <div class="container-fluid">
+                    <!-- Sidebar Toggler -->
+                    <button id="sidebarCollapse" class="navbar-toggler d-block d-md-none" type="button"><span></span><span class="w-75"></span><span class="w-50"></span></button>
+
+                    <a href="./vrestaurant.html" class="logo ml-md-3 nav-link">
+                        <h4 class="text-dark m-0 ">
+                            <b>VRESTAURANT</b>
+                        </h4>
+                    </a>
+
+                    <ul class="social-icons social-icons-sm ml-lg-2 mr-2">
+                        <a data-toggle="tooltip" href="https://github.com/vantanto/vrestaurant" class="btn btn-outline-dark btn-sm">
+                            <i class="fab fa-github"></i> <span class="d-none d-sm-inline-block">Source Code</span>
+                        </a>
+                    </ul>
+                </div>
+            </nav>
+            <!-- Navbar End -->
+        </header>
+
+        <div id="content" role="main">
+
+            <div class="idocs-navigation bg-light">
+                <ul class="nav flex-column ">
+                    <li class="nav-item"><a class="nav-link active" href="#idocs_start">Getting Started</a>
+                        <ul class="nav flex-column">
+                            <li class="nav-item"><a class="nav-link" href="#idocs_installation">Installation</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="#idocs_source_credits">Source & Credits</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#idocs_support">Support</a></li>
+                </ul>
+            </div>
+
+            <div class="idocs-content">
+                <div class="container">
+
+                    <section id="idocs_start">
+                        <h1>Documentation</h1>
+                        <p class="lead">Welcome to <strong>vrestaurant</strong> documentation.</p>
+                        <hr>
+                        <div class="row">
+                            <div class="col-sm-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><strong>Repository:</strong> <a href="https://github.com/vantanto/vrestaurant">vrestaurant</a></li>
+                                    <li><strong>Author:</strong> <a href="https://github.com/vantanto" target="_blank">VanTanto</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-sm-6 col-lg-4">
+                                <ul class="list-unstyled">
+                                    <li><strong class="font-weight-700">Created:</strong> March, 2023</li>
+                                    <li><strong>Updated:</strong> March, 2023</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <p class="alert alert-info">If you have any questions that are beyond the scope of this project, Please feel free email to <a href="mailto: kristanto.margojoyo99@gmail.com">kristanto.margojoyo99@gmail.com</a>.</p>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="idocs_installation">
+                        <h2>Installation</h2>
+                        <p>Follow the steps below to install:
+                            <br>vrestaurant require PHP >= 8.0.:
+                        </p>
+                        <ol>
+                            <li>Clone repository from github:
+                                <pre><code class="bash">git clone https://github.com/vantanto/vrestaurant.git
+cd vrestaurant</code></pre>
+                            </li>
+                            <li>Install dependencies using composer
+                                <pre><code class="bash">composer install</code></pre>
+                            </li>
+                            <li>Copy and Setup database in <code>.env</code> file
+                                <pre><code class="bash">cp .env.example .env</code></pre>
+                            </li>
+                            <li>Generate key & Run migration, seeding & Storage link public folder & Start local developement
+                                <pre><code class="bash">php artisan key:generate
+php artisan migrate --seed
+php artisan storage:link
+php artisan serve</code></pre>
+                            </li>
+                            <li>You can now access the server at <a href="http://localhost:8000">http://localhost:8000</a></li>
+                        </ol>
+                        <ul>
+                            <li>Optional Reservations Seeder with 1.000 dummy data for Analytical Reservation Dashboard
+                                <pre><code class="bash">php artisan db:seed ReservationsSeeder</code></pre>
+                            </li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="idocs_source_credits">
+                        <h2>Source & Credits</h2>
+                        <h4>PHP framework:</h4>
+                        <ul>
+                            <li>Laravel 9 - <a target="_blank" href="https://laravel.com/">https://laravel.com/</a></li>
+                        </ul>
+                        <h4>Templates:</h4>
+                        <ul>
+                            <li>Pato - <a target="_blank" href="https://github.com/technext/pato/">https://github.com/technext/pato/</a></li>
+                            <li>CoreUI - <a target="_blank" href="https://coreui.io/">https://coreui.io/</a></li>
+                            <li>iDocs - <a target="_blank" href="https://github.com/harnishdesign/iDocs">https://github.com/harnishdesign/iDocs</a></li>
+                        </ul>
+                    </section>
+
+                    <hr class="divider">
+
+                    <section id="idocs_support">
+                        <h2>Support</h2>
+                        <p>If this documentation doesn't answer your questions, So, Please send Email to <a href="mailto: kristanto.margojoyo99@gmail.com">kristanto.margojoyo99@gmail.com</a></p>
+                        <p>I am located in Indonesia (GMT +7 time zone) and i answer all questions within 12-24 hours in weekdays. In some rare cases the waiting time can be to 48 hours. (except holiday seasons which might take longer).</p>
+                    </section>
+
+                </div>
+            </div>
+
+        </div>
+
+        <footer id="footer" class="section bg-light py-3">
+            <div class="container">
+                <p class="text-center mb-0">Copyright &copy; 2023 <a href="https://github.com/vantanto/vrestaurant">vrestaurant</a>. All Rights Reserved.</p>
+                <p class="text-2 text-center mb-0">Develop by <a class="btn-link" target="_blank" href="https://github.com/vantanto">VanTanto</a>.</p>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- Back To Top -->
+    <a id="back-to-top" href="javascript:void(0)"><i class="fa fa-chevron-up"></i></a>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js" integrity="sha512-STof4xm1wgkfm7heWqFJVn58Hm3EtS31XFaagaa8VMReCXAkQnJZ+jEy8PCC/iT18dFy95WcExNHFTqLyp72eQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.2/js/bootstrap.bundle.min.js" integrity="sha512-igl8WEUuas9k5dtnhKqyyld6TzzRjvMqLC79jkgT3z02FvJyHAuUtyemm/P/jYSne1xwFI06ezQxEwweaiV7VA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.0.3/highlight.min.js" integrity="sha512-PmUsQP+cCo6jmFgvZO+Wgig+LDFXpXcqYQizbW3fnZxWi5xct2z5wqNoToOG/tmdmugZRNdL1QmTM5nmNWssBg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js" integrity="sha512-0QbL0ph8Tc8g5bLhfVzSqxe9GERORsKhIn1IrpxDAgUsbBGz/V7iSav2zzW325XGd1OMLdL4UiqRJj702IeqnQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js" integrity="sha512-IsNh5E3eYy3tr/JiX2Yx4vsCujtkhwl7SLqgnwLNgf04Hrt9BT9SXlLlZlWx+OK4ndzAoALhsMNcCmkggjZB1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="../../src/js/theme.js"></script>
+</body>
+
+</html>
