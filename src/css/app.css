@@ -294,3 +294,21 @@ canvas {
 #portfolio .card-footer .tag small {
   margin-left: 0.5rem;
 }
+
+.bg-76ace8 {
+  background-color: #76ace8;
+  color: #000;
+}
+
+.bg-76ace8 .text-muted {
+  color: #161925 !important;
+}
+
+.bg-9ed2d2 {
+  background-color: #9ED2D2;
+  color: #333333;
+}
+
+.bg-9ed2d2 .text-muted {
+  color: #5c5c5c !important;
+}
