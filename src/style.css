@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+}
+
+.ease-out-bounce {
+  transition-timing-function: cubic-bezier(0.47, 1.64, 0.41, 0.8);
+}
+
+.body-about {
+  background: rgb(248, 249, 250);
+  background: linear-gradient(135deg, rgba(248, 249, 250, 1) 0%, rgba(238, 239, 250, 1) 100%);
+}
+
+.body-portfolio {
+  background: rgb(248, 249, 250);
+  background: linear-gradient(135deg, rgba(248, 249, 250, 1) 0%, rgba(218, 219, 250, 1) 100%);
+}
+
+.body-resume {
+  background: rgb(248, 249, 250);
+  background: linear-gradient(135deg, rgba(248, 249, 250, 1) 0%, rgba(228, 229, 250, 1) 100%);
+}
