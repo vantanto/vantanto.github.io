@@ -1,75 +1,24 @@
-# Nuxt 3 Minimal Starter
+<h1 align="center">
+  VanTanto
+  <br>
+</h1>
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+<h4 align="center">A minimal portfolio for <a href="https://vantanto.github.io" target="_blank">GitHub Pages</a>.</h4>
 
-## Setup
+> Single Page Application (SPA) portfolio build with Nuxt
 
-Make sure to install the dependencies:
+## 📸 Showcase
 
-```bash
-# npm
-npm install
+<p align="center">
+<img src="./public/assets/demo.jpeg" width="600"><br>
+<strong><a href="https://vantanto.github.io" target=_blank>visit website</a></strong>
+</p>
 
-# pnpm
-pnpm install
+## 📝 Credit
 
-# yarn
-yarn install
+#### Special Thanks
 
-# bun
-bun install
-```
+- [Nuxt](https://nuxt.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
-```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm run dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-# npm
-npm run build
-
-# pnpm
-pnpm run build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm run preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+This project is [MIT](https://github.com/vantanto/vantanto.github.io/blob/master/LICENSE) licensed.
