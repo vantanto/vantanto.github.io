@@ -1,8 +1,3 @@
-<script setup lang="ts">
-import Card from '@/components/core/Card.vue'
-import Icon from '@/components/core/Icon.vue'
-</script>
-
 <template>
   <section class="container mx-auto mt-[3%]">
     <div class="mb-5 grid grid-cols-12 gap-5 md:mb-10 md:gap-10">
@@ -36,7 +31,7 @@ import Icon from '@/components/core/Icon.vue'
               </ul>
             </div>
             <div class="mt-5 flex gap-2">
-              <Icon
+              <BaseIcon
                 name="youtube"
                 href="https://youtube.com/playlist?list=PLBWpRM4Xv0TLxFJRkQcTf4fmvhxPpR3k-"
                 target="_blank"
@@ -49,18 +44,18 @@ import Icon from '@/components/core/Icon.vue'
         </div>
       </div>
       <div class="col-span-12 lg:col-span-4">
-        <Card
+        <BaseCard
           title="vterminal"
           src="/assets/image/portfolio/vterminal.jpg"
           text="Interactive terminal to display profile, portfolio, social links and additional info."
         >
           <div class="mt-5 flex gap-2">
-            <Icon
+            <BaseIcon
               name="github"
               href="https://github.com/vantanto/vterminal"
               target="_blank"
             />
-            <Icon
+            <BaseIcon
               name="open-in-new"
               href="https://vantanto.my.id/"
               target="_blank"
@@ -68,16 +63,16 @@ import Icon from '@/components/core/Icon.vue'
             <div class="ms-auto"></div>
             <span class="text-sm text-gray-500">JavaScript</span>
           </div>
-        </Card>
+        </BaseCard>
       </div>
       <div class="col-span-12 lg:col-span-4">
-        <Card
+        <BaseCard
           title="vpos_lite"
           src="/assets/image/portfolio/vpos_lite.jpg"
           text="Point of Sales to manage order and purchase transactions with stock system."
         >
           <div class="mt-5 flex gap-2">
-            <Icon
+            <BaseIcon
               name="github"
               href="https://github.com/vantanto/vpos_lite"
               target="_blank"
@@ -91,16 +86,16 @@ import Icon from '@/components/core/Icon.vue'
             <span class="text-sm text-gray-500">Laravel</span>
             <span class="text-sm text-gray-500">Vue.js</span>
           </div>
-        </Card>
+        </BaseCard>
       </div>
       <div class="col-span-12 lg:col-span-4">
-        <Card
+        <BaseCard
           title="vwallet"
           src="/assets/image/portfolio/vwallet.jpg"
           text="Wallet to record incoming or outgoing transactions based on transaction's categories."
         >
           <div class="mt-5 flex gap-2">
-            <Icon
+            <BaseIcon
               name="github"
               href="https://github.com/vantanto/vwallet"
               target="_blank"
@@ -112,8 +107,8 @@ import Icon from '@/components/core/Icon.vue'
             /> -->
             <div class="ms-auto"></div>
             <span class="text-sm text-gray-500">Laravel</span>
-          </div></Card
-        >
+          </div>
+        </BaseCard>
       </div>
     </div>
     <div class="mb-5 md:mb-10">
@@ -121,7 +116,7 @@ import Icon from '@/components/core/Icon.vue'
         href="https://github.com/vantanto"
         class="flex justify-center gap-2 text-blue-600 hover:underline"
       >
-        <Icon name="github" />
+        <BaseIcon name="github" />
         <span> View more in my GitHub </span>
       </a>
     </div>

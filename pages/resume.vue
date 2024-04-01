@@ -1,32 +1,27 @@
-<script setup lang="ts">
-import Timeline from '@/components/core/Timeline.vue'
-import TimelineItem from '@/components/core/TimelineItem.vue'
-</script>
-
 <template>
   <section class="container mx-auto mt-[3%]">
     <div class="grid grid-cols-2">
       <div class="col-span-2 md:col-span-1">
         <h2 class="mb-5 text-2xl font-semibold">Education</h2>
-        <Timeline>
-          <TimelineItem
+        <BaseTimeline>
+          <BaseTimelineItem
             time="Aug 2018 - Feb 2022"
             title="Bachelor of Information Systems"
             subtitle="University of Surabaya"
             text="Graduated 3.5 years, GPA 3.9"
           />
-          <TimelineItem
+          <BaseTimelineItem
             time="2015 - 2018"
             title="High School"
             subtitle="SMAK Santo Paulus - Jember"
             text="Social Science Major"
           />
-        </Timeline>
+        </BaseTimeline>
       </div>
       <div class="col-span-2 md:col-span-1">
         <h2 class="mb-5 text-2xl font-semibold">Work Experience</h2>
-        <Timeline>
-          <TimelineItem
+        <BaseTimeline>
+          <BaseTimelineItem
             time="Apr 2022 - 2023"
             title="Fullstack Web Developer"
             subtitle="WAKi Indonesia - Surabaya"
@@ -48,8 +43,8 @@ import TimelineItem from '@/components/core/TimelineItem.vue'
                 </li>
               </ul>
             </div>
-          </TimelineItem>
-        </Timeline>
+          </BaseTimelineItem>
+        </BaseTimeline>
       </div>
     </div>
   </section>

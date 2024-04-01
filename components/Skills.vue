@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import BadgeSkill from './core/BadgeSkill.vue'
-
 const items = [
   { text: 'PHP', icon: 'php' },
   { text: 'JavaScript', icon: 'javascript' },
@@ -24,7 +22,7 @@ const items = [
       v-for="(item, index) in items"
       :key="index"
     >
-      <BadgeSkill
+      <BaseBadgeSkill
         v-if="item.text"
         :icon="item.icon"
         :text="item.text"

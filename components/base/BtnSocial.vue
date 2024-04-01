@@ -1,6 +1,4 @@
 <script setup lang="ts">
-import Icon from '@/components/core/Icon.vue'
-
 defineProps({
   href: String,
   icon: String,
@@ -10,7 +8,7 @@ defineProps({
 <template>
   <a :href="href">
     <span class="btn-social relative inline-flex items-center justify-center p-3 text-center text-base font-medium">
-      <Icon
+      <BaseIcon
         :name="icon"
         class="w-6"
       />
