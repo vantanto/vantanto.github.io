@@ -5,7 +5,7 @@ useHead({
   title: 'VanTanto',
   meta: [{ name: 'description', content: "I'm a software engineer in Indonesia" }],
   bodyAttrs: {
-    class: () => `body-${route.name}`,
+    class: () => `body-${route.name?.toString()}`,
   },
 })
 </script>
