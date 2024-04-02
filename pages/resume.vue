@@ -1,3 +1,16 @@
+<script setup lang="ts">
+useHead({
+  title: 'Resume - VanTanto',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Explore the educational background and work history of Kristanto Margojoyo, a talented software engineer from Indonesia.',
+    },
+  ],
+})
+</script>
+
 <template>
   <section class="container mx-auto mt-[3%]">
     <div class="grid grid-cols-2">

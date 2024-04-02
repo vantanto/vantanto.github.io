@@ -1,3 +1,16 @@
+<script setup lang="ts">
+useHead({
+  title: 'VanTanto',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Kristanto Margojoyo &#8226; @vantanto &#8226; software engineer based in Indonesia, showcasing his passion and expertise in technology. Explore my projects, skills, and more.',
+    },
+  ],
+})
+</script>
+
 <template>
   <section class="-mt-16 flex h-screen flex-col items-center justify-center">
     <div class="mb-5 text-center">

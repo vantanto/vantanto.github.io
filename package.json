@@ -16,6 +16,7 @@
     "vue-router": "^4.3.0"
   },
   "devDependencies": {
+    "@nuxtjs/sitemap": "^5.1.2",
     "@nuxtjs/tailwindcss": "^6.11.4",
     "prettier-plugin-tailwindcss": "^0.5.13"
   }

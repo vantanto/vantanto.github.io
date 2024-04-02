@@ -1,4 +1,15 @@
 <script setup lang="ts">
+useHead({
+  title: 'About - VanTanto',
+  meta: [
+    {
+      name: 'description',
+      content:
+        'Learn more about Kristanto Margojoyo – a software engineer based in Indonesia. Discover his contact information, skills, and professional background.',
+    },
+  ],
+})
+
 const calculateAge = (birthday: Date) => Math.abs(new Date(Date.now() - birthday.getTime()).getUTCFullYear() - 1970)
 const age = calculateAge(new Date(1999, 7 - 1, 20))
 </script>

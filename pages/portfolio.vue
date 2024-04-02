@@ -1,3 +1,16 @@
+<script setup lang="ts">
+useHead({
+  title: 'Portfolio - VanTanto',
+  meta: [
+    {
+      name: 'description',
+      content:
+        "Explore Kristanto Margojoyo's impressive projects and achievements as a software engineer based in Indonesia. Discover a diverse range of innovative solutions and technologies showcased in his portfolio.",
+    },
+  ],
+})
+</script>
+
 <template>
   <section class="container mx-auto mt-[3%]">
     <div class="mb-5 grid grid-cols-12 gap-5 md:mb-10 md:gap-10">
