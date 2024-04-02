@@ -2,8 +2,9 @@
 export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['/assets/css/main.css'],
-  modules: ['@nuxtjs/sitemap', '@nuxtjs/tailwindcss'],
+  modules: ['@nuxtjs/seo', '@nuxtjs/tailwindcss'],
   site: {
     url: 'https://vantanto.github.io',
+    name: 'VanTanto',
   },
 })

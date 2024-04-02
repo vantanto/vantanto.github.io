@@ -2,6 +2,7 @@
 defineProps({
   name: String,
   href: String,
+  title: String,
 })
 </script>
 
@@ -9,6 +10,7 @@ defineProps({
   <a
     v-if="href"
     :href="href"
+    :title="title"
   >
     <img
       :src="`/assets/icon/${name}.svg`"

@@ -22,7 +22,10 @@ const isCurrentRoute = (value: String) => {
     <nav class="container mx-auto">
       <div class="relative flex h-16 items-center justify-between">
         <div class="flex flex-shrink-0 items-center">
-          <NuxtLink :to="{ name: 'index' }">
+          <NuxtLink
+            :to="{ name: 'index' }"
+            title="Home"
+          >
             <img
               class="w-8"
               src="/logo.png"
@@ -36,6 +39,7 @@ const isCurrentRoute = (value: String) => {
               v-for="(navigation, index) in navigations"
               :key="index"
               :to="{ name: navigation.name }"
+              :title="navigation.title"
               class="group px-3 py-2 transition duration-100"
               :class="[isCurrentRoute(navigation.name) ? 'text-gray-900' : 'text-gray-600']"
             >
@@ -99,7 +103,10 @@ const isCurrentRoute = (value: String) => {
       >
         <div class="flex h-full flex-col bg-white pb-3 shadow-xl">
           <div class="flex h-16 items-center justify-between px-4">
-            <NuxtLink :to="{ name: 'index' }">
+            <NuxtLink
+              :to="{ name: 'index' }"
+              title="Home"
+            >
               <img
                 class="w-8"
                 src="/logo.png"
@@ -137,6 +144,7 @@ const isCurrentRoute = (value: String) => {
               >
                 <NuxtLink
                   :to="{ name: navigation.name }"
+                  :title="navigation.title"
                   class="flex items-center rounded-lg p-2 text-gray-600 hover:bg-gray-100"
                   :class="[isCurrentRoute(navigation.name) ? 'bg-gray-100 text-gray-900' : '']"
                   @click="drawer = false"

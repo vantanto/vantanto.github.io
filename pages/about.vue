@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'About - VanTanto',
+  title: 'About',
   meta: [
     {
       name: 'description',
@@ -20,6 +20,7 @@ const age = calculateAge(new Date(1999, 7 - 1, 20))
       <div class="col-span-12 mb-5 justify-self-center md:col-span-5 md:justify-self-end">
         <img
           src="/assets/image/me.jpg"
+          alt="me"
           class="transform rounded-md transition-transform duration-500 hover:scale-105"
         />
       </div>
@@ -49,6 +50,7 @@ const age = calculateAge(new Date(1999, 7 - 1, 20))
                 <a
                   href="https://wa.me/6282139056230"
                   class="text-blue-600 hover:underline"
+                  title="Phone"
                   >+62 8213 9056 230</a
                 >
               </td>
@@ -60,6 +62,7 @@ const age = calculateAge(new Date(1999, 7 - 1, 20))
                 <a
                   href="mailto: kristanto.margojoyo99@gmail.com"
                   class="text-blue-600 hover:underline"
+                  title="Email"
                   >kristanto.margojoyo99@gmail.com</a
                 >
               </td>

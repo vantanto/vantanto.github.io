@@ -12,6 +12,7 @@ defineProps({
       <a
         :href="src"
         target="_blank"
+        :title="title"
       >
         <img
           :src="src"

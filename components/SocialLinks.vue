@@ -14,6 +14,7 @@ const items = [
       :key="index"
       :href="item.link"
       :icon="item.icon"
+      :title="item.title"
     />
   </div>
 </template>

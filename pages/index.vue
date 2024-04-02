@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'VanTanto',
+  title: 'Home',
   meta: [
     {
       name: 'description',

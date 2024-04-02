@@ -2,11 +2,15 @@
 defineProps({
   href: String,
   icon: String,
+  title: String,
 })
 </script>
 
 <template>
-  <a :href="href">
+  <a
+    :href="href"
+    :title="title"
+  >
     <span class="btn-social relative inline-flex items-center justify-center p-3 text-center text-base font-medium">
       <BaseIcon
         :name="icon"

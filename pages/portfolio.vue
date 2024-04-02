@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Portfolio - VanTanto',
+  title: 'Portfolio',
   meta: [
     {
       name: 'description',
@@ -20,10 +20,12 @@ useHead({
             <a
               href="/assets/image/portfolio/mbkm.jpg"
               target="_blank"
+              title="mbkm"
             >
               <img
                 src="/assets/image/portfolio/mbkm.jpg"
                 class="mb-3 transform rounded-md transition-transform duration-500 hover:scale-105"
+                alt="mbkm"
               />
             </a>
           </div>
@@ -48,6 +50,7 @@ useHead({
                 name="youtube"
                 href="https://youtube.com/playlist?list=PLBWpRM4Xv0TLxFJRkQcTf4fmvhxPpR3k-"
                 target="_blank"
+                title="YouTube"
               />
               <div class="ms-auto"></div>
               <span class="text-sm text-gray-500">Laravel</span>
@@ -67,11 +70,13 @@ useHead({
               name="github"
               href="https://github.com/vantanto/vterminal"
               target="_blank"
+              title="GitHub"
             />
             <BaseIcon
               name="open-in-new"
               href="https://vantanto.my.id/"
               target="_blank"
+              title="Website"
             />
             <div class="ms-auto"></div>
             <span class="text-sm text-gray-500">JavaScript</span>
@@ -89,6 +94,7 @@ useHead({
               name="github"
               href="https://github.com/vantanto/vpos_lite"
               target="_blank"
+              title="GitHub"
             />
             <!-- <Icon
               name="file-document"
@@ -112,6 +118,7 @@ useHead({
               name="github"
               href="https://github.com/vantanto/vwallet"
               target="_blank"
+              title="GitHub"
             />
             <!-- <Icon
               name="file-document"
@@ -128,6 +135,7 @@ useHead({
       <a
         href="https://github.com/vantanto"
         class="flex justify-center gap-2 text-blue-600 hover:underline"
+        title="GitHub"
       >
         <BaseIcon name="github" />
         <span> View more in my GitHub </span>
