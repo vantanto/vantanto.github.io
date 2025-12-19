@@ -6,5 +6,13 @@ export default defineNuxtConfig({
   site: {
     url: 'https://vantanto.github.io',
     name: 'VanTanto',
+    trailingSlash: true,
+  },
+  experimental: {
+    defaults: {
+      nuxtLink: {
+        trailingSlash: 'append', 
+      },
+    },
   },
 })

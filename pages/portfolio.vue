@@ -86,7 +86,7 @@ useHead({
       <div class="col-span-12 lg:col-span-4">
         <BaseCard
           title="vpos_lite"
-          src="/assets/image/portfolio/vpos_lite.jpg"
+          src="/assets/image/portfolio/vpos-lite.jpg"
           text="Point of Sales to manage order and purchase transactions with stock system."
         >
           <div class="mt-5 flex gap-2">
